@@ -15,7 +15,8 @@ public class Lab1 {
         hobbies.add("play games");
         hobbies.add("play with my dogs");
 
-        for (Object item : hobbies) {
+        for (int i=0; i<hobbies.size(); i++) {
+            String item = (String)hobbies.get(i);
             System.out.println("I like to " + item);
         }
     }
